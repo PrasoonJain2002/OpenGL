@@ -28,11 +28,11 @@ void draw_circle(int r) {
 	{
 		x = x + 1;
 		if (pk < 0)
-			pk = pk + 2 * x + 1;
+			pk = pk + 2 * x + 3;
 		else
 		{
 			y = y - 1;
-			pk = pk + 2 * (x - y) + 1;
+			pk = pk + 2 * (x - y) + 5;
 		}
 		plot_point(x, y);
 	}
