@@ -1,5 +1,6 @@
 #include <GL/glut.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 
 int xc = 320, yc = 240;
